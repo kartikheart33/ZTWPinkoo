@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="suvicharbg">#B8DFEC</color>
+    <color name="gray">#7F8C8D   </color>
+    <color name="activitybg">#F4F4F4</color>
+    <color name="transparent">#00000000</color>
+    <color name="secondprimary">
+        #C3006D </color>
+    <color name="colorprimary">
+        #C3006D </color>>
+    <color name="green">#00B37A</color>
+    <color name="green_call">#88C767</color>
+    <color name="boder">#90000000</color>
+    <color name="newbackground">#EAF2FD</color>
+    <color name="iconcolor">#9A9A9A</color>
+    <color name="df">#800F206C</color>
+
+    <color name="textView_text_color">#363636</color>
+
+    <color name="md_red_700">#770404</color>
+    <color name="red">#C60606</color>
+
+    <color name="md_yellow_A400">#FBC02D</color>
+
+    <color name="md_lime_500">#6D9904</color>
+
+    <color name="md_lime_700">#587C02</color>
+
+    <color name="md_amber_A400">#F55E0C</color>
+    <color name="adcolor">#F55E0C</color>
+
+    <color name="md_green_500">#047204</color>
+
+    <color name="brown">#FF8A4124</color>
+
+    <color name="md_pink_A400">#D32F2F</color>
+
+    <color name="md_blue_500">#DD1B95</color>
+
+    <color name="md_blue_700">#04045E</color>
+
+    <color name="md_turquoise_A400">#00796B</color>
+
+    <color name="md_turquoise_A4010">#ffFFC107</color>
+    <color name="colorPrimary">#C3006D </color>
+    <color name="colorsecond">#9E2A6B</color>
+    <color name="lightBlue">#E5F1FA</color>
+    <color name="colorPrimary_50">#B32B246C</color>
+    <color name="color_light_blue_accent">#e8edff</color>
+    <color name="background_color">#F6F8FA</color>
+    <color name="btn_orange">#f26b49</color>
+    <color name="red_alert">#C3006D </color>
+    <color name="bg_lightgray">#8F8F8F</color>
+
+    <color name="chip_unselect_background">#DAEAEBEC</color>
+    <color name="schedule_unselect_background">#e9e8f3</color>
+    <color name="FrindButton">#F6F8FA</color>
+    <color name="light_dark">#74000000</color>
+
+    <color name="t1">#000000</color>
+    <color name="t5">#CFCFCF</color>
+    <color name="secondryColor">#363636</color>
+
+
+    <!-- Here you can add color of your choice for dhaval image picker dependancy  -->
+
+
+    <color name="con_option_bg_show">#40000000</color>
+    <color name="colorAccent">#086589</color>
+
+    <!-- Here you can add color of your choice  -->
+    <color name="ucrop_color_toolbar">#01887A</color>
+    <color name="ucrop_color_toolbar_widget">@color/white</color>
+    <color name="ucrop_color_statusbar">#01887A</color>
+    <color name="ucrop_color_widget_active">@color/black</color>
+</resources>
