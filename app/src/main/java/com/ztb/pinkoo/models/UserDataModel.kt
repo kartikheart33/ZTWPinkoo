@@ -11,8 +11,8 @@ class UserDataModel {
     @SerializedName("total_pages" ) var totalPages : Int?            = null
     @SerializedName("data"        ) var data       : ArrayList<Data> = arrayListOf()
     @SerializedName("support"     ) var support    : Support?        = Support()
-    data class Data (
 
+    data class Data (
         @SerializedName("id"         ) var id        : Int?    = null,
         @SerializedName("email"      ) var email     : String? = null,
         @SerializedName("first_name" ) var firstName : String? = null,

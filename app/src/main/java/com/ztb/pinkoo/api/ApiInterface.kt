@@ -1,21 +1,27 @@
 package com.ztb.pinkoo.api
 
 
+import com.google.gson.JsonObject
 import com.ztb.pinkoo.models.CategoryModel
+import com.ztb.pinkoo.models.UserDataModel
 import okhttp3.OkHttpClient
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.GET
-import retrofit2.http.POST
+import retrofit2.http.*
 
 interface ApiInterface {
+
+
     @GET(ApiConst.CATEGORY)
     fun getCategorydetail(): Call<CategoryModel>
 
+    @GET
+    fun getUserPaginationList(@Url url:String):Call<UserDataModel>
 
+
+    @POST(ApiConst.LOGIN)
+    fun postLogin(@Body field: HashMap<String, Any>): Call<JsonObject>
     companion object {
 
         fun create(accessToken: String): ApiInterface {
