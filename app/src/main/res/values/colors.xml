@@ -80,4 +80,78 @@
     <color name="ucrop_color_toolbar_widget">@color/white</color>
     <color name="ucrop_color_statusbar">#01887A</color>
     <color name="ucrop_color_widget_active">@color/black</color>
+
+
+    <color name="danger_medium">#F96146</color>
+    <color name="danger_main">#FF2A04</color>
+    <color name="visaero_orange">#F07821</color>
+    <color name="grey_text_title">#636366</color>
+    <color name="grey_text_2">#A4A4A4</color>
+    <color name="grey_text">#434343</color>
+    <color name="grey_10">#FFFFFF</color>
+    <color name="grey_20">#F5F5F5</color>
+    <color name="grey_30">#EDEDED</color>
+    <color name="grey_40">#E0E0E0</color>
+    <color name="grey_50">#C2C2C2</color>
+    <color name="grey_50_5">#66C2C2C2</color>
+    <color name="grey_60">#9E9E9E</color>
+    <color name="grey_70">#757575</color>
+    <color name="grey_80">#616161</color>
+    <color name="grey_90">#424242</color>
+    <color name="grey_100">#0A0A0A</color>
+    <color name="black_text">#2F2F2F</color>
+    <color name="navy_link">#3F48DD</color>
+    <color name="light_green">#31B311</color>
+    <color name="faded_green">#61B74C</color>
+    <color name="light_yellow">#FFAF3D</color>
+    <color name="green_fade">#A0B59B</color>
+    <color name="red_error">#F96146</color>
+    <color name="purple_primary">#843D8D</color>
+    <color name="purple_secondary">#843D8D</color>
+    <color name="bg_white_15">#26FFFFFF</color>
+    <color name="gray_999999">#999999</color>
+
+    <color name="action_bar_divider_clr">#A4A4A4</color>
+    <color name="drop_shadow_clr">#0000001A</color>
+    <color name="btn_inactive_clr">#F5F5F5</color>
+    <color name="bg_tabs">#BFE3E3E3</color>
+    <color name="navy_light">#3F48DD</color>
+    <color name="navy">#1A1F71</color>
+    <color name="purple_icon">#696EEB</color>
+    <color name="btn_active_clr">#843D8D</color>
+    <color name="resend_purple">#843D8D</color>
+    <color name="biometri_title_hint_clr">#434343</color>
+    <color name="otp_read_clr">#000</color>
+    <color name="otp_write_clr">#fff</color>
+    <color name="error_clr">#F96146</color>
+    <color name="imp_label_clr">#F96146</color>
+    <color name="file_jpg_clr">#D12929</color>
+    <color name="dialog_btn_clr">#843D8D</color>
+    <color name="visaero_purple">#843D8D</color>
+    <color name="purple_light">#E6DDFF</color>
+    <color name="purple_light1">#F7F5FF</color>
+    <!--    <color name="dialog_btn_clr">#198BF4</color>-->
+    <color name="info_main">#198BF4</color>
+    <color name="yellow">#FEA115</color>
+
+    <color name="theme_visaero_orange">#F07821</color>
+    <color name="theme_grey_100">#0A0A0A</color>
+    <color name="theme_grey_10">#FFFFFF</color>
+    <color name="theme_grey_30">#EDEDED</color>
+    <color name="theme_grey_40">#757575</color>
+    <color name="theme_transparent">#00ffffff</color>
+    <color name="theme_blue">#FF355483</color>
+    <color name="theme_red">#FF602D2D</color>
+    <color name="wallet_bg">#F5F6FD</color>
+
+    <color name="strokeRed">@color/R300</color>
+    <color name="R300">#FF5630</color>
+    <color name="textColor">@color/N900</color>
+    <color name="N900">#091E42</color>
+    <color name="Y300">#FFAB00</color>
+    <color name="new_background">#F1F4F8</color>
+    <color name="cream_white">#F8F8F8</color>
+
+    <color name="selectedDot">#181818</color>
+    <color name="unSelectedDot">#D9D9D9</color>
 </resources>

@@ -23,7 +23,7 @@ import com.ztb.pinkoo.utils.AppConstants
 import com.ztb.pinkoo.utils.AppUtil
 import com.ztb.pinkoo.utils.SharedPreferenceUtil
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var sharedPreferencesUtils: SharedPreferenceUtil
     private var appUtil = AppUtil()
@@ -45,9 +45,7 @@ class MainActivity : AppCompatActivity() {
         window.statusBarColor = ContextCompat.getColor(applicationContext, R.color.colorsecond)
 
         sharedPreferencesUtils = SharedPreferenceUtil(this)
-        apiInterface = ApiInterface.create(
-            sharedPreferencesUtils.getStringPreferences(AppConstants.LOGIN_TOKEN).toString()
-        )
+        apiInterface = ApiInterface.create()
         viewModel = ViewModelProvider(
             this,
             HomeFactory(HomeRepository(apiInterface))

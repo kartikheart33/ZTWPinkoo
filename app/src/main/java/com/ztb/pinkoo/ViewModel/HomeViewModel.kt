@@ -11,7 +11,6 @@ import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
 class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
     val errorMessage = MutableLiveData<String>()
     val tokenexpire = MutableLiveData<String>()

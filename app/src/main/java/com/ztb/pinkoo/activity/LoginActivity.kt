@@ -17,7 +17,7 @@ import com.ztb.pinkoo.databinding.ActivityLoginBinding
 import com.ztb.pinkoo.utils.AppConstants
 import com.ztb.pinkoo.utils.AppUtil
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : BaseActivity() {
     lateinit var binding:ActivityLoginBinding
     lateinit var viewModel: HomeViewModel
     lateinit var apiInterface: ApiInterface
@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        apiInterface = ApiInterface.create("")
+        apiInterface = ApiInterface.create()
         viewModel = ViewModelProvider(
             this,
             HomeFactory(HomeRepository(apiInterface))
@@ -96,6 +96,9 @@ class LoginActivity : AppCompatActivity() {
             if(it!=null){
                 binding.progressBar.visibility=View.GONE
                 Toast.makeText(this, ""+it.toString(), Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,NavGraphActivity::class.java)
+                startActivity(intent)
+                finish()
             }
         }
     }

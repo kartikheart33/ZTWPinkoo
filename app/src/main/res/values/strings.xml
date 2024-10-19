@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Pinkoo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_to_next_with_data">Go to Next with DATA</string>
 </resources>
