@@ -3,6 +3,7 @@ package com.ztb.pinkoo.activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
@@ -18,7 +19,8 @@ class NavGraphActivity : BaseActivity() {
         this.setWindowStatusBarColor(R.color.colorPrimary)
         binding = ActivityNavGraphBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        supportActionBar?.hide()
+        window.statusBarColor = ContextCompat.getColor(applicationContext, R.color.colorsecond)
         Navigation.findNavController(this, R.id.nav_host_fragment_activity_home_page)
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_home_page) as NavHostFragment

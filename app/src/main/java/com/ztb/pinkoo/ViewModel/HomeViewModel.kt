@@ -6,7 +6,10 @@ import com.google.gson.JsonObject
 
 import com.ztb.pinkoo.Repository.HomeRepository
 import com.ztb.pinkoo.models.CategoryModel
+import com.ztb.pinkoo.models.UpdateProfleResponceModel
 import com.ztb.pinkoo.models.UserDataModel
+import okhttp3.MultipartBody
+import okhttp3.RequestBody
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
@@ -17,8 +20,53 @@ class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
 //    val getuserlogin = MutableLiveData<LoginModel>()
     val getcatdetail = MutableLiveData<CategoryModel>()
     val getuserpagination = MutableLiveData<UserDataModel>()
+    val getprofileUpdate = MutableLiveData<UpdateProfleResponceModel>()
     val token = MutableLiveData<String>()
     val error = MutableLiveData<String>()
+
+    fun getProfileUpdate(uri: MultipartBody.Part, userId: RequestBody){
+            homeRepository.getProfilePicUpdate(uri,userId).enqueue(object : Callback<UpdateProfleResponceModel?> {
+                override fun onResponse(
+                    call: Call<UpdateProfleResponceModel?>,
+                    response: Response<UpdateProfleResponceModel?>
+                ) {
+                    when {
+                        response.isSuccessful -> {
+                            getprofileUpdate.postValue(response.body())
+                        }
+                        response.code() == 400 -> {
+                            val jObjError = JSONObject(response.errorBody()!!.string())
+                            val response = jObjError.getJSONObject("response").getString("message")
+                            errorMessage.postValue(response)
+                        }
+                        response.code() == 401 -> {
+                            val jObjError = JSONObject(response.errorBody()!!.string())
+                            val response = jObjError.getJSONObject("response").getString("message")
+                            tokenexpire.postValue(response)
+                        }
+                        response.code() == 555 -> {
+                            val jObjError = JSONObject(response.errorBody()!!.string())
+                            val response = jObjError.getJSONObject("response").getString("message")
+                            errorMessage.postValue(response)
+                        }
+                        response.code() == 601 -> {
+                            val jObjError = JSONObject(response.errorBody()!!.string())
+                            val response = jObjError.getJSONObject("response").getString("message")
+                            errorMessage.postValue(response)
+                        }
+                        else -> {
+
+                            errorMessage.postValue("Something Went Wrong")
+                        }
+                    }
+                }
+
+                override fun onFailure(call: Call<UpdateProfleResponceModel?>, t: Throwable) {
+                    errorMessage.postValue("Something Went Wrong")
+                }
+            })
+    }
+
 
     fun postLogin( map: HashMap<String,Any>){
         homeRepository.postLogin(map).enqueue(object : Callback<JsonObject?> {

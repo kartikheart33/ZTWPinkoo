@@ -1,5 +1,7 @@
 package com.ztb.pinkoo.models
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
@@ -13,15 +15,16 @@ class CategoryModel {
     @SerializedName("data"        ) var data       : ArrayList<Data> = arrayListOf()
     @SerializedName("support"     ) var support    : Support?        = Support()
 
-    data class Data (
+    @Entity(tableName = "data_table")
+    data class Data(
+        @PrimaryKey(autoGenerate = true)
+        @SerializedName("id") var id: Int? = null,
+        @SerializedName("name") var name: String? = null,
+        @SerializedName("year") var year: Int? = null,
+        @SerializedName("color") var color: String? = null,
+        @SerializedName("pantone_value") var pantoneValue: String? = null
 
-        @SerializedName("id"            ) var id           : Int?    = null,
-        @SerializedName("name"          ) var name         : String? = null,
-        @SerializedName("year"          ) var year         : Int?    = null,
-        @SerializedName("color"         ) var color        : String? = null,
-        @SerializedName("pantone_value" ) var pantoneValue : String? = null
-
-    ): Serializable
+    ) : Serializable
 
     data class Support (
 
