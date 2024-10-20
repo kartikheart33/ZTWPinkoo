@@ -1,0 +1,166 @@
+{
+  "project_info": {
+    "project_number": "888618053291",
+    "project_id": "estate-guide-e2da8",
+    "storage_bucket": "estate-guide-e2da8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888618053291:android:89fe678dc0d9b9796591ee",
+        "android_client_info": {
+          "package_name": "com.example.pinnacle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888618053291-0udkt9vj94dvhtguhvjah1gc398gsiqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinnacle",
+            "certificate_hash": "e33e1c103b01fc2c41da3ea37879db2980a89af2"
+          }
+        },
+        {
+          "client_id": "888618053291-aj8bkqg98e0ia1i872t337p76cak7059.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinnacle",
+            "certificate_hash": "be1e9aee91a0670ffd9cb675d481b7b77476f4fe"
+          }
+        },
+        {
+          "client_id": "888618053291-n4ibiuh510qg28ll210a2qgqbl4qlts5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinnacle",
+            "certificate_hash": "da2e8454b698618f494b9cda6dc1292b34012773"
+          }
+        },
+        {
+          "client_id": "888618053291-9bdjl4hbtk51njkd9hu7o8dbssq8le80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9uy6_HdtANRlVB0OzP1kOrN5ZMugUwyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888618053291-9bdjl4hbtk51njkd9hu7o8dbssq8le80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "888618053291-nahju4n6rbfi3oisamvfir7io4dfogj0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pinnacle"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888618053291:android:c0504a2af109fba86591ee",
+        "android_client_info": {
+          "package_name": "com.fourk.estateguideadminpandelkpm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888618053291-4qu97aijq71c3e9c1u13kpkc7mo2puo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fourk.estateguideadminpandelkpm",
+            "certificate_hash": "be1e9aee91a0670ffd9cb675d481b7b77476f4fe"
+          }
+        },
+        {
+          "client_id": "888618053291-ts0c3hqqln6auh6pdnormcanmsgmcp1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fourk.estateguideadminpandelkpm",
+            "certificate_hash": "da2e8454b698618f494b9cda6dc1292b34012773"
+          }
+        },
+        {
+          "client_id": "888618053291-9bdjl4hbtk51njkd9hu7o8dbssq8le80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9uy6_HdtANRlVB0OzP1kOrN5ZMugUwyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888618053291-9bdjl4hbtk51njkd9hu7o8dbssq8le80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "888618053291-nahju4n6rbfi3oisamvfir7io4dfogj0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pinnacle"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888618053291:android:7cced8a06fc19d096591ee",
+        "android_client_info": {
+          "package_name": "com.ztb.pinkoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888618053291-h4call2t6h7la6itu9lmsal7bcs4t1h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ztb.pinkoo",
+            "certificate_hash": "4cd6942084e30cbdd0ddaa214b7de4df7a30a509"
+          }
+        },
+        {
+          "client_id": "888618053291-9bdjl4hbtk51njkd9hu7o8dbssq8le80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9uy6_HdtANRlVB0OzP1kOrN5ZMugUwyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888618053291-9bdjl4hbtk51njkd9hu7o8dbssq8le80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "888618053291-nahju4n6rbfi3oisamvfir7io4dfogj0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pinnacle"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

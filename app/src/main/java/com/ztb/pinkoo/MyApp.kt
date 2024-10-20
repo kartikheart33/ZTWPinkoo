@@ -1,6 +1,7 @@
 package com.ztb.pinkoo
 
 import android.app.Application
+import com.google.firebase.FirebaseApp
 import com.ztb.pinkoo.RoomDb.AppDatabase
 import com.ztb.pinkoo.RoomDb.DataRepository
 
@@ -12,6 +13,5 @@ class MyApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        // Any other global initialization logic can go here
-    }
+        FirebaseApp.initializeApp(this)    }
 }

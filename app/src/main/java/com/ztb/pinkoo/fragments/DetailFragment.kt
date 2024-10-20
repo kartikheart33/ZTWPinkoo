@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.setFragmentResultListener
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.ztb.pinkoo.Factory.HomeFactory
@@ -68,6 +69,10 @@ class DetailFragment : BaseFragment() {
                     1080,
                     1080
                 ).start()
+        }
+        binding.btnAuth.setOnClickListener {
+            val directions = DetailFragmentDirections.actionNavigationDetailToNavigationFirebase()
+            findNavController().navigate(directions)
         }
         setObserver()
     }

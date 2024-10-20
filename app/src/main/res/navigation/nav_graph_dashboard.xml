@@ -28,8 +28,15 @@
         android:defaultValue=""
         app:argType="string"
         app:nullable="false" />
-
+        <action
+            android:id="@+id/action_navigation_detail_to_navigation_firebase"
+            app:destination="@id/navigation_firebase" />
 
     </fragment>
 
+    <fragment
+        android:id="@+id/navigation_firebase"
+        android:name="com.ztb.pinkoo.fragments.FirebaseAuthFragment"
+        android:label="FireBase"
+        tools:layout="@layout/fragment_firebase_auth"/>
 </navigation>
